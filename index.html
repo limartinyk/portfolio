@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martin Li | Full-Stack Developer & AI Engineer</title>
+    <meta name="description" content="Full-stack developer specializing in Next.js, React, TypeScript, and AI/LLM integrations. Available for freelance projects.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <a href="#" class="nav-logo">ML</a>
+        <ul class="nav-links">
+            <li><a href="#work">Work</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <p class="hero-greeting">Hi, I'm</p>
+            <h1 class="hero-title">Martin Li</h1>
+            <p class="hero-subtitle">Full-Stack Developer & AI Engineer</p>
+            <p class="hero-description">
+                I build modern web applications with Next.js, React, and TypeScript.
+                Specialized in AI/LLM integrations with OpenAI, Anthropic, and Google APIs.
+            </p>
+            <div class="hero-ctas">
+                <a href="#work" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Work Section -->
+    <section id="work" class="work-section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Recent work showcasing full-stack development and AI integration</p>
+
+            <div class="projects-grid">
+                <!-- Bottlecap -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder bottlecap-bg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                                <path d="M2 17l10 5 10-5"/>
+                                <path d="M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Next.js</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">AI/LLM</span>
+                            <span class="tag">WebSocket</span>
+                        </div>
+                        <h3 class="project-title">Bottlecap</h3>
+                        <p class="project-description">
+                            Unified API gateway that consolidates multiple AI provider credentials (OpenAI, Anthropic, Google, Ollama)
+                            into a single API key. Features intelligent routing, usage tracking, budget enforcement, and local LLM support
+                            via desktop runners.
+                        </p>
+                        <ul class="project-features">
+                            <li>OpenAI-compatible API for drop-in replacement</li>
+                            <li>AES-256-GCM encrypted credential storage</li>
+                            <li>Real-time WebSocket connections via Partykit</li>
+                            <li>Full dashboard for keys, providers & usage stats</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/limartinyk/bottlecap" target="_blank" rel="noopener" class="project-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                                </svg>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Maurice -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder maurice-bg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                <polyline points="14 2 14 8 20 8"/>
+                                <line x1="16" y1="13" x2="8" y2="13"/>
+                                <line x1="16" y1="17" x2="8" y2="17"/>
+                                <polyline points="10 9 9 9 8 9"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Next.js 15</span>
+                            <span class="tag">React 19</span>
+                            <span class="tag">AI Parsing</span>
+                            <span class="tag">Prisma</span>
+                        </div>
+                        <h3 class="project-title">Maurice</h3>
+                        <p class="project-description">
+                            GTD (Getting Things Done) productivity app that uses AI to parse freeform text into structured
+                            projects, actions, and calendar events. Features multi-provider AI with automatic fallback,
+                            Google Calendar & iCloud sync.
+                        </p>
+                        <ul class="project-features">
+                            <li>AI parsing with Groq, Gemini & Claude fallback chain</li>
+                            <li>Tiptap rich text editor with semantic formatting</li>
+                            <li>Real-time calendar sync (Google & iCloud CalDAV)</li>
+                            <li>161 automated tests for AI parsing quality</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/limartinyk/maurice" target="_blank" rel="noopener" class="project-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                                </svg>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- MeLian Gallery -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder gallery-bg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                                <circle cx="8.5" cy="8.5" r="1.5"/>
+                                <polyline points="21 15 16 10 5 21"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Responsive</span>
+                        </div>
+                        <h3 class="project-title">MeLian Gallery</h3>
+                        <p class="project-description">
+                            Elegant, minimal art portfolio website for an independent artist. Features a responsive
+                            image gallery with filtering, lightbox viewer, and external shop integrations for prints
+                            and apparel.
+                        </p>
+                        <ul class="project-features">
+                            <li>Lazy-loaded gallery supporting 100+ artworks</li>
+                            <li>Lightbox with keyboard & swipe navigation</li>
+                            <li>Category filtering with smooth animations</li>
+                            <li>Mobile-first responsive design</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://limartinyk.github.io/moms-art-site/" target="_blank" rel="noopener" class="project-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                    <polyline points="15 3 21 3 21 9"/>
+                                    <line x1="10" y1="14" x2="21" y2="3"/>
+                                </svg>
+                                Live Site
+                            </a>
+                            <a href="https://github.com/limartinyk/moms-art-site" target="_blank" rel="noopener" class="project-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                                </svg>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <p class="section-subtitle">Technologies I work with regularly</p>
+
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <ul class="skill-list">
+                        <li>React / Next.js</li>
+                        <li>TypeScript</li>
+                        <li>Tailwind CSS</li>
+                        <li>HTML / CSS / JavaScript</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <ul class="skill-list">
+                        <li>Node.js</li>
+                        <li>Next.js API Routes</li>
+                        <li>PostgreSQL</li>
+                        <li>Prisma ORM</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>AI / LLM</h3>
+                    <ul class="skill-list">
+                        <li>OpenAI API</li>
+                        <li>Anthropic Claude</li>
+                        <li>Google Gemini</li>
+                        <li>Prompt Engineering</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Tools & Other</h3>
+                    <ul class="skill-list">
+                        <li>Git / GitHub</li>
+                        <li>WebSockets</li>
+                        <li>REST APIs</li>
+                        <li>OAuth / Auth.js</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Let's Work Together</h2>
+            <p class="section-subtitle">Available for freelance projects on Upwork and Fiverr</p>
+
+            <div class="contact-content">
+                <p class="contact-description">
+                    I'm currently taking on new projects. Whether you need a full-stack web application,
+                    AI integration, or a custom solution, I'd love to hear about your project.
+                </p>
+
+                <div class="contact-links">
+                    <a href="https://www.upwork.com/freelancers/~YOUR_UPWORK_ID" target="_blank" rel="noopener" class="contact-card">
+                        <div class="contact-card-icon upwork">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18.561 13.158c-1.102 0-2.135-.467-3.074-1.227l.228-1.076.008-.042c.207-1.143.849-3.06 2.839-3.06 1.492 0 2.703 1.212 2.703 2.703-.001 1.489-1.212 2.702-2.704 2.702zm0-8.14c-2.539 0-4.51 1.649-5.31 4.366-1.22-1.834-2.148-4.036-2.687-5.892H7.828v7.112c-.002 1.406-1.141 2.546-2.547 2.548-1.405-.002-2.543-1.143-2.545-2.548V3.492H0v7.112c0 2.914 2.37 5.303 5.281 5.303 2.913 0 5.283-2.389 5.283-5.303v-1.19c.529 1.107 1.182 2.229 1.974 3.221l-1.673 7.873h2.797l1.213-5.71c1.063.679 2.285 1.109 3.686 1.109 3 0 5.439-2.452 5.439-5.45 0-3-2.439-5.439-5.439-5.439z"/>
+                            </svg>
+                        </div>
+                        <span>Hire on Upwork</span>
+                    </a>
+
+                    <a href="https://www.fiverr.com/YOUR_FIVERR_USERNAME" target="_blank" rel="noopener" class="contact-card">
+                        <div class="contact-card-icon fiverr">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23.004 15.588a.995.995 0 1 0 .002-1.99.995.995 0 0 0-.002 1.99zm-.996-3.705h-.85c-.546 0-.84.41-.84 1.092v2.466h-1.61v-3.558h-.684c-.547 0-.84.41-.84 1.092v2.466h-1.61v-4.874h1.61v.74c.264-.574.626-.74 1.163-.74h1.972v.74c.264-.574.625-.74 1.162-.74h1.527v1.316zm-6.786 1.501h-3.359c.088.546.43.858 1.006.858.43 0 .732-.175.976-.546l1.317.549c-.39.858-1.229 1.387-2.293 1.387-1.61 0-2.674-1.078-2.674-2.614 0-1.477 1.005-2.614 2.555-2.614 1.522 0 2.472 1.137 2.472 2.614v.366zm-2.467-1.735c-.489 0-.81.234-.927.72h1.824c-.087-.487-.41-.72-.897-.72zm-4.063-.684v4.268h-1.61v-4.268h-.996v-1.316h.996v-1.858h1.61v1.858h.996v1.316h-.996zm-3.903-1.316h-1.757c-.606 0-.982.37-.982.923 0 .574.377.922.982.922h.665c.606 0 1.2.373 1.2 1.092v.632c0 1.034-.747 1.756-1.873 1.756H1v-1.316h1.679c.605 0 .981-.37.981-.923 0-.574-.376-.922-.981-.922h-.665c-.606 0-1.2-.373-1.2-1.092v-.632c0-1.034.746-1.756 1.873-1.756h1.875v1.316z"/>
+                            </svg>
+                        </div>
+                        <span>Hire on Fiverr</span>
+                    </a>
+
+                    <a href="mailto:martin@example.com" class="contact-card">
+                        <div class="contact-card-icon email">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </div>
+                        <span>Email Me</span>
+                    </a>
+
+                    <a href="https://github.com/limartinyk" target="_blank" rel="noopener" class="contact-card">
+                        <div class="contact-card-icon github">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </div>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Martin Li. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
