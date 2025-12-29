@@ -361,11 +361,93 @@ h1, h2, h3, h4 {
 }
 
 /* ========================================
+   Experience Section
+   ======================================== */
+
+.experience-section {
+    padding: var(--spacing-xl) 0;
+}
+
+.experience-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+}
+
+.experience-item {
+    background: var(--color-card);
+    padding: var(--spacing-md);
+    border-radius: 12px;
+    border: 1px solid var(--color-border);
+    transition: var(--transition);
+}
+
+.experience-item:hover {
+    border-color: var(--color-primary);
+    box-shadow: var(--shadow-md);
+}
+
+.experience-item.current {
+    border-left: 3px solid var(--color-primary);
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: var(--spacing-xs);
+    gap: var(--spacing-sm);
+}
+
+.experience-company {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.experience-date {
+    font-size: 0.8125rem;
+    color: var(--color-text-light);
+    font-family: var(--font-mono);
+    white-space: nowrap;
+}
+
+.experience-role {
+    font-size: 0.9375rem;
+    color: var(--color-text-muted);
+    margin-bottom: 0.25rem;
+}
+
+.experience-location {
+    font-size: 0.8125rem;
+    color: var(--color-text-light);
+}
+
+.education {
+    background: var(--color-bg-alt);
+    padding: var(--spacing-md);
+    border-radius: 12px;
+}
+
+.education-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text);
+    margin-bottom: var(--spacing-sm);
+}
+
+.education-item .experience-company {
+    font-size: 1rem;
+}
+
+/* ========================================
    Skills Section
    ======================================== */
 
 .skills-section {
     padding: var(--spacing-xl) 0;
+    background: var(--color-bg-alt);
 }
 
 .skills-grid {
@@ -375,9 +457,10 @@ h1, h2, h3, h4 {
 }
 
 .skill-category {
-    background: var(--color-bg-alt);
+    background: var(--color-card);
     padding: var(--spacing-md);
     border-radius: 12px;
+    border: 1px solid var(--color-border);
 }
 
 .skill-category h3 {
